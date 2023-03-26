@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Virtual_Pet
 {
-    public class Animal
+    public abstract class Animal
     {
         public string Name { get; protected set; }
         public int Age { get; protected set; }
